@@ -107,6 +107,7 @@ Established:
 - Built a IRP, enabling simulated recovery within 30–60 minutes after malware events.
 
 ## 📁 Repository Structure
+<a href="https://google.com">Detection Lab</a>
 /data  
 /risk-assessment  
 /incident-response  
