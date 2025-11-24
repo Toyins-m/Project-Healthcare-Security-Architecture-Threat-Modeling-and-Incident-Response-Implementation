@@ -31,31 +31,80 @@ Deliverables were created using real cybersecurity frameworks and mapped directl
 - Policy writing and audit documentation (IIA toolkit)
 
 ## 🛠 Tools & Technologies
-- Frameworks: NIST CSF, HIPAA, IIA Toolkit
-- Security Tools: SIEM, IDS, RBAC, MFA, DLP, Encryption
-- Platforms: Windows 10/7, Databases, Server Infrastructure
+
+| Category                                       | Tools / Methods         |
+|------------------------------------------------|----------------------------|
+| Frameworks                                     | NIST CSF, HIPAA Security & Privacy Rules, IIA Cybersecurity Toolkit |
+| Security Controls                              | RBAC, MFA, Encryption, DLP, SIEM, IDS/IPS |
+| System Hardening                               | Windows Defender, Patch Management, Application Control |
+| Monitoring & Detection                         | Event Logs, SIEM Alerts, IDS Rules |
+| Threat Modeling                                | Malware analysis, case-study comparison, vulnerability analysis |
+| Governance                                     | SOC Automation Lab|
+
 
 ## 📐 Methodology
 ### 1. Data Classification
-[Describe your data governance work]
+Created a four-tier classification model—Public, Internal, Classified, Private—mapped to all CareAtHome data assets such as patient data, payroll, insurance, PHI/PII, and vendor information.
 
 ### 2. Risk Assessment (NIST)
-[Describe Identify → Protect → Detect → Respond → Recover steps]
+Performed a full asset-based risk evaluation, including threat likelihood, impact, and justification.
+
+Assessed 20+ assets, including:
+- Patient personal data
+- Payroll systems
+- Medical equipment
+- Insurance records
+- Networking infrastructure
+- Software keys & login tokens
 
 ### 3. Threat Modeling
-[List major threats and mitigations]
+Analyzed threats such as ransomware, unauthorized access, insider threats, third-party compromise, and DDoS.
 
-### 4. Incident Response Simulation
-[Describe malware attack scenario and outcomes]
+Mapped these threats to:
+- CIA Triad
+- HIPAA compliance risks
+- Likelihood & mitigation strategies
+
+### 4. Malware Incident Response Simulation
+Simulated a malware attack caused by unauthorized USB use.
+
+Documented:
+- Root cause analysis
+- Forensics
+- Healthcare breach case studies
+- Outcomes on confidentiality, integrity & availability
+- Immediate + long-term countermeasures
 
 ### 5. System Hardening & Auditing
-[Summaries of hardening steps and audit activities]
+Performed System hardening across:
+- Servers
+- OS
+- Networks
+- Databases
+- Applications
+- Physical security assets
+
+Integrated:
+- IDS/IPS
+- SIEM logging
+- RBAC & MFA
+- Encryption at rest & in transit
+
+### 6. Continuous Monitoring & Review
+Established:
+- Quarterly risk reassessments
+- Annual HIPAA compliance audits
+- Ongoing patch & vulnerability management
+- Updated IRP (Incident Response Plan)
 
 ## 📊 Outcomes / Results
-- Reduced risks by X%
-- Improved detection capability by X%
-- Implemented Y security controls
-- Hardened systems across Z infrastructure components
+- Reduced identified cybersecurity risks through targeted NIST-aligned controls.
+- Implemented RBAC + MFA, decreasing unauthorized access risk.
+- Deployed IDS + SIEM logging, improving threat detection visibility.
+- Eliminated USB-related malware vectors by enforcing endpoint protection + device control.
+- Hardened Windows systems, reducing vulnerability exposure scores.
+- Achieved HIPAA-aligned handling of PHI/PII through formal data classification and access control.
+- Built a IRP, enabling simulated recovery within 30–60 minutes after malware events.
 
 ## 📁 Repository Structure
 /data  
