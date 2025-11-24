@@ -104,12 +104,13 @@ Established:
 - Eliminated USB-related malware vectors by enforcing endpoint protection + device control.
 - Hardened Windows systems, reducing vulnerability exposure scores.
 - Achieved HIPAA-aligned handling of PHI/PII through formal data classification and access control.
-- Built a IRP, enabling simulated recovery within 30–60 minutes after malware events.
+- Built an IRP, enabling simulated recovery within 30–60 minutes after malware events.
 
 ## 📁 Repository Structure
-<a href="https://github.com/Toyins-m/Project-Healthcare-Security-Architecture-Threat-Modeling-and-Incident-Response-Implementation/tree/main/Data%20Classification"> / data-classification </a>
-/risk-assessment  
-/incident-response  
-/system-hardening  
-/docs  
-README.md
+- [data-classification](data-classification/)
+- [risk-assessment](risk-assessment/)
+- [incident-response](incident-response/)
+- [system-hardening](system-hardening/)
+- [docs](docs/)
+- [README.md](README.md)
+
