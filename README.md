@@ -107,7 +107,7 @@ Established:
 - Built an IRP, enabling simulated recovery within 30–60 minutes after malware events.
 
 ## 📁 Repository Structure
-- [data-classification](data-classification/)
+- [data-classification](DataClassification)
 - [risk-assessment](risk-assessment/)
 - [incident-response](incident-response/)
 - [system-hardening](system-hardening/)
