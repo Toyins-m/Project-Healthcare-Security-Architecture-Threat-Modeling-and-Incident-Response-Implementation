@@ -109,7 +109,7 @@ Established:
 ## 📁 Repository Structure
 - [Data-classification](DataClassification)
 - [Risk-assessment](risk-assessment/)
-- [Incident-response](incident-response/)
+- [Incident-response](Incident-response/)
 - [System-hardening](system-hardening/)
 - [Docs](docs/)
 - [README.md](README.md)
